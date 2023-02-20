@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Follow Along Nav</title>
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="header__title">Follow Along</h1>
+        <nav>
+            <ul class="header__nav">
+                <li><a id="home" class="header__nav--link js-nav-link" href="">Home</a></li>
+                <li><a id="about" class="header__nav--link js-nav-link" href="">About</a></li>
+                <li><a id="projects" class="header__nav--link js-nav-link" href="">Projects</a></li>
+                <li><a id="blog" class="header__nav--link js-nav-link" href="">Blog</a></li>
+                <li><a id="contact" class="header__nav--link js-nav-link" href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="submenu">
+        <ul id="home" class="submenu__item js-submenu js-hidden">
+            <li>Home</li>
+        </ul>
+        <ul id="about" class="submenu__item js-submenu  js-hidden">
+            <li>About</li>
+        </ul>
+        <ul id="projects" class="submenu__item js-submenu js-hidden">
+            <li>Projects</li>
+        </ul>
+        <ul id="blog" class="submenu__item js-submenu js-hidden">
+            <li>Blog</li>
+        </ul>
+        <ul id="contact" class="submenu__item js-submenu js-hidden">
+            <li>Contact</li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
